@@ -4,8 +4,6 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class CSVFileReader {
-	// Lists listsGetter = new Lists();
-
 	/**
 	 * This method accesses the CSV file countries_name.csv to access all the names
 	 * of the countries and adds it to the ArrayList countries. Parameter is a type
@@ -14,7 +12,7 @@ public class CSVFileReader {
 	 * @param countryList
 	 */
 	public void addCountries(ListAccessor countryList) {
-		String countriesPath = "/Users/advaithtontalapur/Desktop/countries_names.csv";
+		String countriesPath = /*"Path Goes here"*/;
 		String str = "";
 		{
 
@@ -35,7 +33,6 @@ public class CSVFileReader {
 				System.out.println("error"+ioe.toString());
 			}
 		}
-		// System.out.println(countryList.getCountries());
 	}
 
 	/**
@@ -46,7 +43,7 @@ public class CSVFileReader {
 	 * @param
 	 */
 	public void addFlagAddress(ListAccessor flagslist) {
-		String flagspath = "/Users/advaithtontalapur/Desktop/CountryFlagAddress.csv";
+		String flagspath = /*"Path Goes here"*/;
 		String flags = "";
 
 		try {
@@ -65,7 +62,6 @@ public class CSVFileReader {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		// System.out.println(flagslist.getFlagAddress());
 	}
 
 }
