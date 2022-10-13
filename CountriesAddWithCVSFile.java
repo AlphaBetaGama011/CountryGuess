@@ -32,7 +32,7 @@ public class CountriesAddWithCVSFile {
 		}
 
 		// Adds all the image address to the ArrayList flagAddress
-		String flagspath = "/Users/advaithtontalapur/Desktop/CountryFlagAddress.csv";
+		String flagspath =/*"Path Goes here"*/;
 		String flags = "";
 		try {
 			BufferedReader br = new BufferedReader(new FileReader(flagspath));
